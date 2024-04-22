@@ -1,0 +1,413 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.one{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 10px;
+    background-color: rgba(12, 12, 64, 0.899);
+    height: 50px;
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap: 35px;
+}
+nav ul a{
+    text-decoration: none;
+}
+.button1{
+    color: white;
+    background-color: rgba(168, 11, 11, 0.996);
+    width: 70px;
+    height: 25px;
+    border: none;
+    border-radius: 15px;
+}
+.white{
+    color: white;
+}
+.white:hover{
+    color: rgb(14, 148, 165);
+}
+.button1:hover{
+    background-color: yellow;
+    color: black;
+}
+.front{
+    height: 100vh;
+    background-color: rgba(12, 12, 64, 0.899);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    gap: 20px;
+}
+.front h1{
+    color: white;
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.front h3{
+    color: white;
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.front .button2{
+    color: white;
+    font-size: 20px;
+    background-color: rgba(168, 11, 11, 0.996);
+    width: 110px;
+    height: 50px;
+    border: none;
+    border-radius: 30px;
+}
+.button2:hover{
+    color: black;
+    background-color: chartreuse;
+}
+.second{
+    margin-top: 40px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    gap: 20px;
+}
+.second i{
+    height: 50px;
+    width: 50px;
+    color: gold;
+}
+.S1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+}
+.three{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    gap: 20px;
+}
+.three h2{
+    font-size: 50px;
+    color: black;
+}
+.three h2:hover{
+    color: white;
+    background-color: black;
+    box-shadow: 15px 15px 15px chartreuse;
+}
+.line{
+    width: 170px;
+    height: 4px;
+    background-color: aqua;
+}
+.elemnts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+}
+.elemnts ul li{
+    color: black;
+    font-size: 20px;
+}
+.elemnts ul li:hover{
+    color: red;
+}
+.elemnts button{
+    color: white;
+    font-size: 20px;
+    background-color: rgba(168, 11, 11, 0.996);
+    width: 110px;
+    height: 50px;
+    border: none;
+    border-radius: 30px;
+}
+.elemnts button:hover{
+    color: red;
+    background-color: black;
+}
+.images{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.images img{
+    width: 400px;
+    height: 200px;
+    transition: .4s;
+}
+.img1,.img2{
+    display: flex;
+    gap: 20px;
+}
+.image{
+    position: relative;
+    overflow: hidden;
+}
+.image h3{
+    position: absolute;
+    left: 37%;
+    top: 50%;
+    color:black;
+    transform: translate(0,100px);
+    transition: .4s;
+}
+.image:hover h3{
+    transform: translate(0,0);
+    font-size: 20px;
+}
+.image:hover img{
+    opacity: .3;
+}
+.Four{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    gap: 20px;
+}
+.Four h1{
+    color: blue;
+    font-size: 50px;
+}
+.Four pre{
+    color: gray;
+    font-size: 15px;
+}
+.fourII{
+    margin-top: 60px;
+    margin-left: 50px;
+    display: flex;
+    justify-content: right;
+    flex-direction: column;
+    align-content: center;
+}
+.fourII h2{
+    color: black;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.fourII pre{
+    color: rgb(52, 47, 47);
+    font-size: 15px;
+}
+.fourII .button4{
+    color: white;
+    font-size: 20px;
+    background-color: rgba(168, 11, 11, 0.996);
+    width: 180px;
+    height: 50px;
+    border: none;
+    border-radius: 50px;
+}
+.Five{
+    background-color: rgba(169, 181, 181, 0.596);
+    padding-top: 50px;
+    margin-top:70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    gap: 20px;
+}
+.Five h1{
+    color: gold;
+    font-size: 40px;
+}
+.Five pre{
+    color: rgb(52, 47, 47);
+    font-size: 15px;
+}
+.cards{
+    background-color: rgba(169, 181, 181, 0.596);
+}
+.cards img{
+    width: 400px;
+    height: 240px;
+}
+.cards .card-body{
+    background-color: aqua;
+}
+.cards .card-body h5{
+    color: white;
+    font-size: 20px;
+}
+.cards .card-body p{
+    color: white;
+}
+.SIX{
+    background-color: rgba(12, 12, 64, 0.899);
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    gap: 20px;
+    padding-bottom: 50px;
+}
+.SIX h1{
+    color: white;
+    font-size: 60px;
+}
+.SIX p{
+    color: white;
+    font-size: 20px;
+}
+.SIX button{
+    color: white;
+    font-size: 25px;
+    background-color: rgba(168, 11, 11, 0.996);
+    width: 180px;
+    height: 50px;
+    border: none;
+    border-radius: 50px;
+}
+.SIX button:hover{
+    color: white;
+    background-color: chartreuse;
+}
+.endcards{
+    margin-top: 40px;
+}
+.endcards img{
+    height: 280px;
+}
+.button6{
+    position: relative;
+    left: 45%;
+    margin-top: 50px;
+    color: white;
+    font-size: 25px;
+    background-color:gold;
+    width: 180px;
+    height: 50px;
+    border: none;
+    border-radius: 50px;
+}
+.finally{
+    height: 300px;
+    margin-top: 50px;
+    padding-top: 150px;
+    padding-left: 50px;
+    background-color: gold;
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+    flex-direction: column;
+    
+}
+.finally h2{
+    color: white;
+}
+.line2{
+    height: 2px;
+    width: 800px;
+    background-color: wheat;
+}
+footer{
+    background-color: rgba(12, 12, 64, 0.899);
+    padding-top: 50px;
+    padding-left: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+.F1 span:hover{
+    font-size: 20px;
+    color: white;
+    box-shadow: 15px 15px 15px red;
+}
+.M{
+    display: flex;
+    align-items: center;
+    gap:5px;
+}
+.M p{
+    padding-top: 13px;
+}
+.F2{
+    padding-top: 52px;
+}
+.F2,.F3,.F4{
+    display: flex;
+    align-items: center;
+    gap: 21px;
+    flex-direction: column;
+}
+.F2 h2{
+    color: white;
+}
+.F3 h2{
+    color: white;
+}
+.F4 h2{
+    color: white;
+}
+.F4 button{ 
+    color:orange;
+    font-size: 25px;
+    background-color: rgba(168, 11, 11, 0.996);
+    width: 280px;
+    height: 50px;
+    border: none;
+    border-radius: 50px;
+}
+.Icoon{
+    display: flex;
+    gap: 30px;
+}
+.circle1{
+    background-color: blue;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: relative;
+}
+.circle1 i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.cir2{
+    background-color: rgb(0, 136, 255);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: relative;
+}
+.cir2 i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.cir4{
+    background-color:red;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: relative;
+}
+.cir4 i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
